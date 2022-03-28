@@ -1,0 +1,1 @@
+{"version":3,"file":"toInteger.js","sourceRoot":"","sources":["../../lib/toInteger.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,OAAO,WAAsB,GAAW,EAAE,eAAwB,CAAC;IACxE,OAAO,IAAI,CAAC,OAAO,EAAE,CAAC,GAAG,CAAC;QACxB,CAAC,CAAC,QAAQ,CAAC,IAAI,CAAC,OAAO,CAAC,GAAG,CAAC,CAAC,IAAI,YAAY;QAC7C,CAAC,CAAC,YAAY,CAAC;AACnB,CAAC"}

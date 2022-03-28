@@ -1,0 +1,1 @@
+{"version":3,"file":"toBigIntJson.d.ts","sourceRoot":"","sources":["../../lib/toBigIntJson.ts"],"names":[],"mappings":"AAAA,OAAO,CAAC,MAAM,CAAC;IACb,UAAU,MAAM;QACd,MAAM,IAAI,MAAM,CAAC;KAClB;CACF;AAED,MAAM,CAAC,OAAO,WAAW,IAAI,EAAE,GAAG,EAAE,GAAG,EAAE,MAAM,EAAE,YAAY,GAAE,OAAW,WAWzE"}

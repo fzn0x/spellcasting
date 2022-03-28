@@ -1,0 +1,1 @@
+{"version":3,"file":"toNumber.js","sourceRoot":"","sources":["../../lib/toNumber.ts"],"names":[],"mappings":";;AAAA,mBAAoC,GAAW,EAAE,eAAwB,CAAC;IACxE,OAAO,IAAI,CAAC,OAAO,EAAE,CAAC,GAAG,CAAC;QACxB,CAAC,CAAC,MAAM,CAAC,IAAI,CAAC,OAAO,CAAC,GAAG,CAAC,CAAC,IAAI,YAAY;QAC3C,CAAC,CAAC,YAAY,CAAC;AACnB,CAAC;AAJD,4BAIC"}

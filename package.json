@@ -1,0 +1,35 @@
+{
+  "name": "spellcasting",
+  "version": "0.0.1-rc1",
+  "description": "Extremely powerful, easy and safely cast a spell to casting from one type to another in Javascript",
+  "main": "dist/cjs/spellcast.js",
+  "module": "dist/mjs/spellcast.js",
+  "exports": {
+    ".": {
+      "import": "./dist/mjs/spellcast.js",
+      "require": "./dist/cjs/spellcast.js"
+    }
+  },
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fzn0x/spellcast"
+  },
+  "keywords": [
+    "Casting"
+  ],
+  "author": "fzn0x",
+  "license": "MIT",
+  "dependencies": {
+    "dayjs": "^1.11.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
