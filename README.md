@@ -4,7 +4,7 @@ Extremely powerful, easy and safely cast a spell to casting from one type to ano
 
 ## Installation 🌟
 
-```
+```sh
 npm install spellcasting # npm
 yarn add spellcasting # yarn
 ```
@@ -14,11 +14,16 @@ yarn add spellcasting # yarn
 ```js
 import spellcasting from "spellcasting";
 
-const payload = {};
+const payload = {
+  date: new Date(),
+};
 
 const cast = spellcasting(payload);
 
 // Use APIs..
+const date = cast.toDateString("date");
+
+payload.date = date;
 ```
 
 ## API
