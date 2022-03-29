@@ -10,7 +10,6 @@
       "require": "./dist/cjs/spellcast.js"
     }
   },
-  "type": "module",
   "directories": {
     "lib": "lib"
   },
