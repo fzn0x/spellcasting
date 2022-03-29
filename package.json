@@ -1,6 +1,6 @@
 {
   "name": "spellcasting",
-  "version": "0.0.1-rc2",
+  "version": "0.0.1",
   "description": "Extremely powerful, easy and safely cast a spell to casting from one type to another in Javascript",
   "main": "dist/cjs/spellcast.js",
   "module": "dist/mjs/spellcast.js",
