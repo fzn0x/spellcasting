@@ -11,6 +11,7 @@ yarn add spellcasting # yarn
 
 ## Minimal Example
 
+**ESM**
 ```js
 import spellcasting from "spellcasting";
 
@@ -22,6 +23,22 @@ const cast = spellcasting(payload);
 
 // Use APIs..
 const date = cast.toDateString("date");
+
+payload.date = date;
+```
+
+**CJS**
+```js
+const spellcasting = require("spellcasting");
+
+const payload = {
+  date: new Date(),
+};
+
+const cast = spellcasting.default(payload);
+
+// Use APIs..
+const date = cast.toTimestamp("date");
 
 payload.date = date;
 ```
